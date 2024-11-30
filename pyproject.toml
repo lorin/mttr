@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "mttr"
+version = "0.1.0"
+description = "Python notebooks for MTTR stuff"
+authors = ["Lorin Hochstein <lorinh@gmail.com>"]
+license = "MIT"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.13"
+jupyter = "^1.1.1"
+altair = "^5.5.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
